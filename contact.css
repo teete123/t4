@@ -1,0 +1,249 @@
+.links li a {
+    color:#0000ff; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: white;
+  
+  
+}
+label{
+  color:#000000;
+  font-size:20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 35px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 40px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color: #f9f7fe;
+  font-style: italic,bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 40px;
+  color: #FF4500;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 50px;
+  padding: 15px 20px;
+  color:#f9f7fe ;
+  background-color:#000000 ;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #000000;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  
+  background-color: black;
+  border: solid 2px #4d0cf6;
+  color: #4d0cf6;
+  width: $width;
+  height: $height;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;  
+  &:focus {
+    outline: none;
+  }
+  &::-moz-focus-inner {
+    border: none;
+    outline: none;
+  }
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1ECD97;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 18px;
+    border-left: solid 15px white;
+    border-bottom: solid 15px white;
+    opacity: 0;
+    transform: rotate(-45deg);
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+}
+
+.circle {
+  animation-delay: 500ms, 3000ms;
+  animation-duration: 300ms, 800ms;
+  animation-timing-function: ease-out, ease-in;
+  animation-fill-mode: forwards, forwards;
+  animation-name: circle, button_grow;
+   &:before {
+    animation-delay: 80ms;
+    animation-duration: 2500ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-name: grow;
+  }
+  &:after {
+    animation-delay: 4500ms;
+    animation-duration: 400ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-name: check;
+  }
+}
+
+input[type=submit]:hover {
+  background-color: #5a5763;
+}
+
+/* Style the container/contact section */
+.contact {
+  border-radius: 5px;
+  backdrop-filter:blur(10px);
+  background:rgb(255,255,255,0.2);
+  padding: 12px;
+  
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 16px;
+  padding: 22px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+
+.footer{
+padding:15px ;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:blue;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:blue;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 3%;
+}
+
+@media (max-width:729px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}

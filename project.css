@@ -1,0 +1,217 @@
+.links li a {
+  color: blue;}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color:white
+  
+  
+  
+}
+
+body {
+  padding:0px;
+  margin:0;
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/05/10/08/office-2717014_640.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+}
+a {
+  text-decoration: none;
+    color:blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+ 
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  font-style: italic,bold;
+  font-size: 30px;
+  color: #f9f7fe;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  
+}
+
+.landing-page header .links {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #000000;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color:white ;
+  background-color:#000000 ;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+
+}
+
+.landing-page .content .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: #4169E1;
+}
+.image  {
+
+  position: absolute; 
+  left: 800px;
+  bottom: 450px;
+  width:200px;
+  height:200px;
+}
+#getstarted{
+  background-color:black;
+  
+}
+/* End Landing Page */
+.footer{
+padding:15px ;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:blue;
+font-size:0.8em;
+}
+.footer .row a{
+text-decoration:none;
+color:blue;
+transition:0.5s;
+}
+.footer .row a:hover{
+color:#fff;
+}
+.footer .row ul{
+width:100%;
+}
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+.footer .row a i{
+font-size:2em;
+margin:0% 3%;
+}
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+ /* Full width */
+  padding: 5px;
+/* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  
+  
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4169E1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top:50px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  color: red;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  border-radius: 5px;
+ color:white;
+  padding: 20px;
+  margin-top:70px;
+}
+.h5{
+  color:white;
+  text-align:center;
+  margin-top:20px;
+   font-style: italic;
+}
+.pq{
+  color:white;
+  text-align:center;
+  margin-top:100px;
+}
+.ima1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height:250px;
+}
+
+.p1{
+  color:white;
+  margin-left: 450px;
+  margin-right: 450px;
+  text-align:center;
+}

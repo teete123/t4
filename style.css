@@ -1,0 +1,167 @@
+.links li a {
+    color:#0000ff; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: white;
+  
+  
+}
+label{
+  color:#005453;
+  font-size:10px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 35px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 40px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color: #f9f7fe;
+  font-style: italic,bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 40px;
+  color: #FF4500;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 50px;
+  padding: 15px 20px;
+  color:#f9f7fe ;
+  background-color:#000000 ;
+}
+
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 190px;
+  min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+  color: #000000;
+  font-size: 50px;
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 25px;
+  color: #002147;
+}
+.landing-page .content .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #0000ff;
+  background-color: #000000 ;
+}
+.landing-page .content .image img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://images.pexels.com/photos/93405/pexels-photo-93405.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+
+.footer{
+padding:15px ;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:blue;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:blue;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 3%;
+}
+
+@media (max-width:729px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+
+/* End Landing Page */
